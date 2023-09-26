@@ -20,15 +20,15 @@ import { componentNames } from '#build/components';
   )
     img(
       class="lg:rounded-2xl"
-      src="/norwegian.png"
+      src="/norwegian.jpg"
     )
     img(
       class="lg:rounded-2xl"
-      src="/swedish.png"
+      src="/swedish.jpg"
     )
     img(
       class="lg:rounded-2xl"
-      src="/finnish.png"
+      src="/finnish.jpg"
     )
 </template>
 
