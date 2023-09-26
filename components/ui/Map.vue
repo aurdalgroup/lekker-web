@@ -14,7 +14,8 @@ export default {
       center: [60.178745, 24.951394],
       zoom: 16,
       zoomControl: false,
-      attributionControl: false
+      attributionControl: false,
+      dragging: !L.Browser.mobile
     })
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -28,5 +29,5 @@ export default {
 
 <style lang="stylus" scoped>
 #map
-  height 400px
+  height 300px
 </style>

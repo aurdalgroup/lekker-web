@@ -6,7 +6,7 @@ import { componentNames } from '#build/components';
   .text-base.font-medium(
     class="lg:text-xl"
   ) A new food cart experience in Helsinki
-  .text-4xl.font-medium.pt-2.leading(
+  .text-3xl.font-medium.pt-2.leading(
     class="lg:text-5xl lg:pt-4"
   )
     | Nordic fresh sandwiches
