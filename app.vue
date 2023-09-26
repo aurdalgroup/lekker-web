@@ -12,7 +12,7 @@
       .grow
       a.text-gray-800.inline-flex.px-2.py-2(
         href="https://www.instagram.com/lekker.fi/"
-        class="hover:text-blue-600"
+        class="hover:text-lime-700"
         target="_new"
       )
         svg.w-6.h-6(

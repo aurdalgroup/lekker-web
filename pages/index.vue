@@ -2,14 +2,14 @@
 main
   ui-hero
 
-  .text-2xl.font-medium.text-gray-800.mt-8.mb-2(
-    class="lg:text-4xl lg:mt-16 lg:mb-6"
-  ) Cart map
+  .text-3xl.font-medium.text-gray-800.text-center.mt-10.mb-4(
+    class="lg:text-4xl lg:mt-20 lg:mb-8"
+  ) Live cart map
   ui-map
 
-  .text-2xl.font-medium.text-gray-800.mt-8(
-    class="lg:text-4xl lg:mt-16"
-  ) Share your food with <span class="text-blue-600">#lekker.fi</span>
+  .text-3xl.font-medium.text-gray-800.text-center.mt-10.mb-4(
+    class="lg:text-4xl lg:mt-20 lg:mb-8"
+  ) Share your food with <span class="text-lime-600">#lekker.fi</span>
   .mt-20
 </template>
 
