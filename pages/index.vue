@@ -9,7 +9,13 @@ main
 
   .text-3xl.font-medium.text-gray-800.text-center.mt-10.mb-4(
     class="lg:text-4xl lg:mt-20 lg:mb-8"
-  ) Share your food with <span class="text-lime-600">#lekker.fi</span>
+  )
+    | Share your food with 
+    a.text-blue-600(
+      class="hover:underline"
+      href="https://www.instagram.com/explore/tags/lekkerfi/"
+      target="_new"
+    ) #lekkerFi
   .mt-20
 </template>
 

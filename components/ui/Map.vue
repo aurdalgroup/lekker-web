@@ -27,7 +27,7 @@ export default {
       cooperativeGestures: true
     })
 
-    const marker = new mapboxgl.Marker({ color: '#6c845b' })
+    const marker = new mapboxgl.Marker({ color: '#2563eb' })
       .setLngLat(this.center)
       .addTo(map)
   }
