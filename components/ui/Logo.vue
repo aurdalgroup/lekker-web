@@ -71,6 +71,42 @@ export default {
   },
   mounted() {
     if (this.animate === true) {
+      anime({
+        targets: `svg#${this.uuid} .love .cls-2`,
+        duration: 0,
+        scale: 0.9,
+        opacity: 0
+      })
+
+      setTimeout(() => {
+        anime({
+          targets: `svg#${this.uuid} .delicious .cls-2`,
+          duration: 5000,
+          scale: 1.1,
+          opacity: 0,
+          delay: anime.stagger(100)
+        })
+      }, 2000)
+
+      setTimeout(() => {
+        anime({
+          targets: `svg#${this.uuid} .love .cls-2`,
+          duration: 5000,
+          scale: 1,
+          opacity: 1,
+          delay: anime.stagger(100)
+        })
+      }, 2500)
+
+      setTimeout(() => {
+        anime({
+          targets: `svg#${this.uuid} .delicious .cls-2`,
+          duration: 0,
+          scale: 0.9,
+          opacity: 0
+        })
+      }, 5000)
+
       setTimeout(() => {
         anime({
           targets: `svg#${this.uuid} .love .cls-2`,
@@ -79,14 +115,8 @@ export default {
           opacity: 0,
           delay: anime.stagger(100)
         })
-      }, 1750)
+      }, 5000)
 
-      anime({
-        targets: `svg#${this.uuid} .delicious .cls-2`,
-        duration: 0,
-        scale: 0.9,
-        opacity: 0
-      })
       setTimeout(() => {
         anime({
           targets: `svg#${this.uuid} .delicious .cls-2`,
@@ -95,7 +125,7 @@ export default {
           opacity: 1,
           delay: anime.stagger(100)
         })
-      }, 2100)
+      }, 5500)
     } else {
       anime({
         targets: `svg#${this.uuid} .love .cls-2`,
