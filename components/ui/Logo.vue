@@ -100,15 +100,6 @@ export default {
 
       setTimeout(() => {
         anime({
-          targets: `svg#${this.uuid} .delicious .cls-2`,
-          duration: 0,
-          scale: 0.9,
-          opacity: 0
-        })
-      }, 5000)
-
-      setTimeout(() => {
-        anime({
           targets: `svg#${this.uuid} .love .cls-2`,
           duration: 5000,
           scale: 1.1,
@@ -118,6 +109,12 @@ export default {
       }, 5000)
 
       setTimeout(() => {
+        anime({
+          targets: `svg#${this.uuid} .delicious .cls-2`,
+          duration: 0,
+          scale: 0.9,
+          opacity: 0
+        })
         anime({
           targets: `svg#${this.uuid} .delicious .cls-2`,
           duration: 5000,
