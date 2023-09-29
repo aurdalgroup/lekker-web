@@ -2,13 +2,13 @@
 main
   ui-hero
 
-  .text-3xl.font-medium.text-gray-800.text-center.mt-10.mb-4(
-    class="lg:text-4xl lg:mt-20 lg:mb-8"
+  .text-3xl.font-medium.text-gray-800.text-center.mt-10.mb-6(
+    class="lg:text-4xl lg:mt-20 lg:mb-12"
   ) Live cart map
   ui-map
 
-  .text-3xl.font-medium.text-gray-800.text-center.mt-10.mb-4(
-    class="lg:text-4xl lg:mt-20 lg:mb-8"
+  .text-3xl.font-medium.text-gray-800.text-center.mt-10.mb-6(
+    class="lg:text-4xl lg:mt-20 lg:mb-12"
   )
     | Share your food with 
     a.text-blue-600(
@@ -16,7 +16,7 @@ main
       href="https://www.instagram.com/explore/tags/lekkerfi/"
       target="_new"
     ) #lekkerFi
-  .mt-20
+  ui-gallery
 </template>
 
 <script>

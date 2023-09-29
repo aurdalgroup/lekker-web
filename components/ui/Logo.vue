@@ -54,6 +54,7 @@ svg(
 </template>
 
 <script>
+import { v4 as uuidv4 } from 'uuid'
 import anime from 'animejs/lib/anime.es.js'
 
 export default {
@@ -66,7 +67,7 @@ export default {
   },
   computed: {
     uuid() {
-      return `logo-${this._uid}`
+      return `logo-${uuidv4()}`
     }
   },
   mounted() {
