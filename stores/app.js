@@ -14,6 +14,12 @@ export default defineStore('app', {
         method: 'get'
       })
       return await res.json()
+    },
+    async refresh() {
+      const res = await fetch('/api/refresh', {
+        method: 'get'
+      })
+      return await res.json()
     }
   }
 })
